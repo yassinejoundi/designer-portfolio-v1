@@ -27,21 +27,19 @@ export default {
 
 <style scoped>
 .about {
-  width: 100%;
   padding: 100px 0px;
-  background-color: #191919;
+  background-color: var(--background);
 }
 .about img {
   height: auto;
-  width: 430px;
+  width: 400px;
 }
 .about-text {
   width: 550px;
 }
 .main {
-  width: 1130px;
-  max-width: 95%;
-  margin: 0 auto;
+  width: 90%;
+  /*margin: 0 auto;*/
   display: flex;
   align-items: center;
   justify-content: space-around;

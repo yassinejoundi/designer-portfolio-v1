@@ -6,7 +6,7 @@
 
     <div class="box">
       <div class="card">
-        <i class="fas fa-bars"></i>
+        <i class="mdi mdi-bars"></i>
         <h5>Web Development</h5>
         <div class="pra">
           <p>
@@ -22,7 +22,7 @@
       </div>
 
       <div class="card">
-        <i class="far fa-user"></i>
+        <i class="mdi mdi-user"></i>
         <h5>Web Development</h5>
         <div class="pra">
           <p>
@@ -38,7 +38,7 @@
       </div>
 
       <div class="card">
-        <i class="far fa-bell"></i>
+        <i class="mdi mdi-bell"></i>
         <h5>Web Development</h5>
         <div class="pra">
           <p>
@@ -64,14 +64,13 @@ export default {
 
 <style scoped>
 .service {
-  background: #101010;
+  background: var(--section);
   width: 100%;
   padding: 100px 0px;
 }
 .title h2 {
   color: white;
   font-size: 75px;
-  width: 1130px;
   margin: 30px auto;
   text-align: center;
 }
@@ -86,7 +85,7 @@ export default {
   height: 365px;
   width: 335px;
   padding: 20px 35px;
-  background: #191919;
+  background: var(--background);
   border-radius: 20px;
   margin: 15px;
   position: relative;
@@ -98,7 +97,7 @@ export default {
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: #f9004d;
+  color: var(--primary-color);
 }
 h5 {
   color: white;
@@ -112,7 +111,7 @@ h5 {
   margin-bottom: 25px;
 }
 .card .button {
-  background-color: #f9004d;
+  background-color: var(--primary-color);
   color: white;
   text-decoration: none;
   border: 2px solid transparent;
@@ -123,7 +122,7 @@ h5 {
 }
 .card .button:hover {
   background-color: transparent;
-  border: 2px solid #f9004d;
+  border: 2px solid var(--primary-color);
   cursor: pointer;
 }
 </style>

@@ -26,10 +26,11 @@ export default {
   width: 100%;
   background: #000;
   display: flex;
+  flex-wrap: wrap-reverse;
 }
 
 .hero div {
-  width: 50%;
+  width: max(50%, 400px);
 }
 
 .profil {
