@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'designer-v1',
+    title: 'Yassine Joundi',
     htmlAttrs: {
       lang: 'en',
     },
@@ -15,7 +15,7 @@ export default {
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/paint-palette.png' },
       {
         rel: 'stylesheet',
         href: '/mdi_font/css/materialdesignicons.min.css',
