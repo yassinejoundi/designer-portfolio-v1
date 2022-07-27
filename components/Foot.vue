@@ -3,9 +3,9 @@
     <p>Joundi Yassine</p>
     <p>Let Me Get You A Beautiful Designs</p>
     <div class="social">
-      <a href="#"><i class="mdi mdi-facebook"></i></a>
-      <a href="#"><i class="mdi mdi-instagram"></i></a>
-      <a href="#"><i class="mdi mdi-linkedin"></i></a>
+      <a v-for="social in socials" :key="social.id" :href="social.link">
+        <i :class="`mdi mdi-${social.icon}`"></i>
+      </a>
     </div>
     <p class="end">
       CopyRight By
@@ -17,6 +17,24 @@
 <script>
 export default {
   name: 'Footer',
+  data() {
+    return {
+      socials: [
+        {
+          icon: 'facebook',
+          link: 'https://www.facebook.com',
+        },
+        {
+          icon: 'instagram',
+          link: 'https://www.instagram.com',
+        },
+        {
+          icon: 'linkedin',
+          link: 'https://www.linkedin.com',
+        },
+      ],
+    }
+  },
 }
 </script>
 
@@ -40,7 +58,6 @@ footer p:nth-child(1) {
 footer p:nth-child(2) {
   color: white;
   font-size: 17px;
-  width: 500px;
   text-align: center;
   line-height: 26px;
 }

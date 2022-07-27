@@ -4,16 +4,15 @@
       <img :src="require('@/static/about.png')" />
       <div class="about-text">
         <h2>About Me</h2>
-        <h5>Developer <span>& Designer</span></h5>
+        <h5>Graphic <span>Designer</span></h5>
         <p>
-          I am a front-end web developer. I can provide clean code and pixel
-          perfect design. I also make the website more & more interactive with
-          web animations.I can provide clean code and pixel perfect design. I
-          also make the website more & more interactive with web animations.A
-          responsive design makes your website accessible to all users,
-          regardless of their device.
+          I'm a full-time graphic designer and photographer with over 10 years
+          of experience. I specialize in logo design and branding, along with
+          custom logos, social media graphics and print collateral such as
+          business cards, flyers and brochures. I have more than 4k followers on
+          Instagram and am able to grow your brand through social media
+          marketing.
         </p>
-        <button type="button">Let's Talk</button>
       </div>
     </div>
   </div>
@@ -35,7 +34,8 @@ export default {
   width: 400px;
 }
 .about-text {
-  width: 550px;
+  width: 450px;
+  padding: 0 5px 0 20px;
 }
 .main {
   width: 90%;
